@@ -690,6 +690,9 @@ label {
 }
 
 @media (max-width: 550px) {
+  * {
+    overflow-x: hidden;
+  }
   .navbar {
     height: 10%;
     width: 100%;
@@ -2057,10 +2060,6 @@ label {
       width: 45%;
       text-align: center;
       margin-left: 25%;
-    }
-    body {
-      overflow-x: hidden;
-      overflow-y: hidden;
     }
   }
 }
