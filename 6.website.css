@@ -1,0 +1,1029 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: rgb(81, 87, 105);
+  font-family: Hind, sans-serif;
+}
+#check {
+  display: none;
+}
+label {
+  display: none;
+}
+
+.header {
+  height: 730px;
+  width: 100%;
+  background-image: url(https://themewagon.github.io/flameonepage/img/1920x1080/01.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 10%;
+  width: 100%;
+  background-color: rgba(246, 243, 243, 0);
+  border-bottom: 2px solid white;
+  position: sticky;
+  top: 0%;
+  display: block;
+  z-index: 9999;
+  box-sizing: border-box;
+  right: 0%;
+  left: 0%;
+}
+
+.logo {
+  height: 100%;
+  width: 30%;
+  float: left;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  height: 30%;
+}
+
+.navbar_pages {
+  height: 100%;
+  width: 70%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_pages li {
+  display: inline-block;
+  margin-left: 50px;
+  box-sizing: border-box;
+  width: 80px;
+  transition: 0.5s;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18x;
+  color: white;
+  &:hover {
+    /* background-color: red; */
+    /* height: 100%; */
+    padding: 10px;
+    color: red;
+    box-sizing: border-box;
+  }
+}
+
+.personal {
+  height: 75%;
+  width: 100%;
+  /* background-color: aqua; */
+  margin-top: 3%;
+  color: white;
+}
+
+.personal h1 {
+  font-size: 90px;
+  padding-top: 100px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  color: white;
+  z-index: 10;
+}
+
+.personal p {
+  padding-left: 100px;
+  width: 40%;
+  padding-top: 30px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.personal button {
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+  &:hover {
+    background-color: rgb(253, 135, 31);
+    border: none;
+    color: rgb(81, 87, 105);
+  }
+}
+
+.personal i {
+  color: white;
+  transition: 0.5s;
+}
+.personal button:hover i {
+  color: rgb(81, 87, 105);
+}
+.nav_circle1 {
+  height: 15px;
+  width: 15px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-right: 10px;
+  float: left;
+  background-color: white;
+  cursor: pointer;
+}
+.nav_circle2 {
+  height: 15px;
+  width: 15px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 50%;
+  float: left;
+  cursor: pointer;
+}
+
+.team {
+  height: 700px;
+  width: 100%;
+  background-color: transparent;
+  padding: 7% 10% 7% 7%;
+  box-sizing: border-box;
+}
+
+.team_card {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-left: 3%;
+}
+
+.team_card h1 {
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.team_card p {
+  line-height: 20px;
+  margin-bottom: 10%;
+  color: rgb(154, 159, 174);
+}
+
+.team_card img {
+  height: 75%;
+}
+
+.Why_Us {
+  height: 600px;
+  width: 100%;
+  background-color: #fafafa;
+  padding: 6% 10% 6% 10%;
+  box-sizing: border-box;
+}
+
+.why_more {
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+  float: left;
+  margin-right: 15%;
+  padding: 4% 0% 4% 0%;
+  box-sizing: border-box;
+}
+
+.why_more h1 {
+  font-size: 32px;
+  margin-bottom: 4.5%;
+}
+.why_more p {
+  line-height: 20px;
+  margin-bottom: 5%;
+  color: rgb(154, 159, 174);
+}
+
+.why_more button {
+  width: 30%;
+  height: 12%;
+  font-size: 17px;
+  background-color: rgb(81, 87, 105);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-left: 1%;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.why_more button:hover {
+  background-color: rgb(253, 135, 31);
+  border: none;
+}
+
+.why_more i {
+  color: white;
+  margin-left: 5%;
+  font-size: 10px;
+}
+
+.Expert {
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+  float: left;
+  box-sizing: border-box;
+}
+
+.High_tech {
+  height: 20%;
+  width: 100%;
+  padding: 6% 4% 4% 4%;
+  margin-top: 5%;
+  background-color: white;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px rgb(231, 230, 230);
+  transition: 0.5s;
+  cursor: pointer;
+  transition: 1s;
+}
+.High_tech h1 {
+  color: rgb(81, 87, 105);
+  height: 37.5%;
+}
+.High_tech:hover h1 {
+  color: rgb(153, 156, 170);
+}
+.High_tech p {
+  color: black;
+  display: none;
+}
+.High_tech:hover {
+  background-color: rgb(253, 135, 31);
+  height: 45%;
+  width: 100%;
+  padding: 10% 4% 4% 4%;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: white;
+}
+
+.High_tech:hover h1 {
+  color: white;
+}
+
+.High_tech:hover p {
+  color: white;
+  display: block;
+}
+
+.Projects {
+  height: 800px;
+  width: 100%;
+  padding: 6% 10% 6% 10%;
+  box-sizing: border-box;
+}
+
+.Recent_heading {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 52%;
+  height: 20%;
+  margin-bottom: 5%;
+  float: left;
+}
+.Recent_heading h1 {
+  font-size: 30px;
+}
+.Recent_heading p {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.Project_card {
+  width: 30.5%;
+  height: 80%;
+  float: left;
+  box-sizing: border-box;
+  margin-right: 3%;
+}
+#Project_card1 {
+  margin-left: 0%;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.Project_card h2 {
+  font-size: 25px;
+  width: 40%;
+  float: left;
+  font-weight: bolder;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Project_card h2:hover {
+  color: rgb(153, 156, 170);
+}
+.Project_card h3 {
+  font-size: 15px;
+  width: 60%;
+  float: left;
+  margin-top: 2%;
+  text-transform: uppercase;
+  color: rgb(153, 156, 170);
+}
+
+.Project_card p {
+  line-height: 23px;
+  margin-bottom: 10%;
+  color: rgb(154, 159, 174);
+  width: 100%;
+  float: left;
+  margin-top: 5%;
+}
+
+.Project_card img {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Project_card button {
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.Project_card button:hover {
+  color: rgb(153, 156, 170);
+}
+
+.Project_card i {
+  color: red;
+  font-size: 9px;
+  margin-left: 10%;
+}
+
+.Package {
+  height: 650px;
+  width: 100%;
+  padding: 6% 10% 6% 10%;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+.All_Package {
+  width: 33%;
+  height: 100%;
+  float: left;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 6% 4% 4% 4%;
+  z-index: 10;
+}
+
+#Gold_Package {
+  height: 113%;
+  margin-top: -2.3%;
+  z-index: 50;
+  padding-top: 9%;
+  box-shadow: 0px 0px 2px rgb(201, 201, 201);
+  position: relative;
+}
+.All_Package i {
+  font-size: xx-large;
+  color: rgb(154, 159, 174);
+  margin-bottom: 8%;
+}
+
+.All_Package p {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.All_Package li {
+  font-size: 14px;
+}
+.All_Package li i {
+  font-size: 10px;
+  margin-right: 15px;
+  color: red;
+}
+
+.All_Package button {
+  width: 50%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.All_Package button:hover {
+  color: white;
+  background-color: rgb(253, 135, 31);
+}
+.All_Package button:hover i {
+  color: white;
+}
+.All_Package button i {
+  font-size: 12px;
+  margin-top: 9.5%;
+  margin-left: 5%;
+  color: rgb(76, 78, 85);
+}
+
+.Portfolio {
+  height: 1075px;
+  width: 100%;
+  padding: 6% 10% 6% 10%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(223, 222, 222);
+}
+.Portfolio_header {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 52%;
+  height: 15%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.Portfolio_header h1 {
+  font-size: 32px;
+  margin-bottom: 4.5%;
+}
+.Portfolio_header p {
+  line-height: 20px;
+  margin-bottom: 5%;
+  color: rgb(154, 159, 174);
+}
+
+.Portfolio_images {
+  height: 100%;
+}
+
+.Portfolio_images img {
+  float: left;
+  width: 30%;
+  margin-right: 3.3%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.img5 img {
+  width: 63%;
+}
+
+.Partners {
+  width: 100%;
+  height: 200px;
+  padding: 6% 10% 6% 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.Partners img {
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.Service {
+  height: 800px;
+  width: 100%;
+  padding: 6% 10% 6% 10%;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+.Service_header {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 52%;
+  height: 20%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.Service_header h1 {
+  font-size: 32px;
+  margin-bottom: 4.5%;
+}
+.Service_header p {
+  line-height: 20px;
+  margin-bottom: 5%;
+  color: rgb(154, 159, 174);
+}
+
+.Service_boxex {
+  width: 33%;
+  height: 38%;
+  padding: 4% 3% 4% 3%;
+  box-sizing: border-box;
+  float: left;
+  box-shadow: 0px 0px 2px rgb(201, 201, 201);
+  cursor: pointer;
+  background-color: white;
+}
+
+#color_box {
+  background-color: rgb(253, 135, 31);
+}
+#color_box i {
+  color: white;
+}
+#color_box h2 {
+  color: white;
+}
+#color_box p {
+  color: white;
+}
+
+.Service_boxex i {
+  font-size: xx-large;
+  margin-bottom: 5%;
+  color: rgb(154, 159, 174);
+}
+
+.Service_boxex:hover i {
+  display: none;
+}
+
+.Service_boxex p {
+  margin-top: 5%;
+  color: rgb(154, 159, 174);
+}
+
+.Contact {
+  height: 305px;
+  width: 100%;
+  padding: 4% 10% 4% 10%;
+  box-sizing: border-box;
+}
+
+.Contact_box {
+  height: 100%;
+  width: 31%;
+  margin-right: 2%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.Contact_box h2 {
+  font-size: 20px;
+  float: left;
+  margin-right: 15%;
+  height: fit-content;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Contact_box h2:hover {
+  color: rgb(175, 175, 176);
+}
+
+.Contact_box h3 {
+  color: rgb(175, 175, 176);
+  font-weight: lighter;
+  margin-bottom: 6%;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 2%;
+}
+
+.Contact_box p {
+  line-height: 22px;
+  margin-bottom: 4%;
+}
+
+.Contact_box span {
+  font-size: 15px;
+  width: 100%;
+  display: block;
+  margin-bottom: 4%;
+}
+
+.Contact_box i {
+  margin-right: 5%;
+  color: rgb(112, 246, 239);
+}
+
+.location {
+  height: 350px;
+  width: 100%;
+}
+
+.Main_content {
+  width: 100%;
+  height: 250px;
+  padding: 4% 10% 4% 10%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(234, 232, 232);
+}
+
+.Main_content ul {
+  float: left;
+  width: 19%;
+  font-size: 16px;
+  height: 100%;
+  margin-right: 1%;
+}
+.Main_content li {
+  height: 25%;
+  transition: 0.4s;
+  &:hover {
+    color: rgb(193, 190, 190);
+  }
+}
+
+.Main_content a {
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(153, 156, 170);
+}
+
+.footer img {
+  height: 13%;
+  margin-right: 45%;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(130, 130, 133);
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .navbar {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display: block;
+  }
+
+  .logo img {
+    height: 2%;
+    position: fixed;
+  }
+  .navbar_pages {
+    height: 320%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: -320px;
+  }
+  #home_anchor {
+    margin-top: 0%;
+  }
+  .navbar_pages li {
+    margin-left: 30px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 2.5%;
+    color: black;
+    &:hover {
+      padding: 0px;
+    }
+  }
+  #check {
+    display: none;
+  }
+  label {
+    display: block;
+    position: sticky;
+    top: 1%;
+    margin-left: 87%;
+    z-index: 50000;
+  }
+
+  label #btn {
+    position: absolute;
+    cursor: pointer;
+  }
+  label #btn:hover {
+    color: rgb(131, 250, 250);
+  }
+  label #btn {
+    left: 10px;
+    top: 10px;
+    font-size: 25px;
+    color: black;
+    padding: 6px 12px;
+    transition: all 0.5s ease;
+    z-index: 100;
+  }
+  #check:checked ~ .v_navbar {
+    top: 320%;
+  }
+  #check:checked ~ .label #btn {
+    top: 320%;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .personal h1 {
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 30px;
+  }
+
+  .personal p {
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .personal button {
+    margin-left: 30px;
+  }
+  .nav_circle1 {
+    margin-left: 30px;
+  }
+
+  .team {
+    height: 1800px;
+    padding: 7% 10% 20% 7%;
+  }
+
+  .team_card {
+    width: 100%;
+    height: 32%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  .Why_Us {
+    height: 700px;
+    padding: 6% 10% 6% 4%;
+  }
+
+  .why_more {
+    width: 100%;
+    height: 35%;
+  }
+  .why_more p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .why_more button {
+    height: 25%;
+  }
+
+  .Expert {
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .High_tech {
+    height: 15%;
+  }
+
+  .High_tech:hover {
+    height: 35%;
+    width: 100%;
+  }
+
+  .Projects {
+    height: 1800px;
+    width: 100%;
+    padding: 6% 10% 6% 4%;
+    box-sizing: border-box;
+  }
+
+  .Recent_heading {
+    padding-right: 0%;
+    height: 7%;
+    margin-bottom: 10%;
+  }
+  .Recent_heading p {
+    line-height: 22px;
+  }
+
+  .Project_card {
+    width: 100%;
+    height: 80%;
+    margin-right: 0%;
+  }
+  #Project_card1 {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .Project_card p {
+    margin-bottom: 5%;
+  }
+
+  .Project_card button {
+    margin-bottom: 10%;
+  }
+
+  .Package {
+    height: 1600px;
+    width: 100%;
+    padding: 20% 4% 5% 4%;
+  }
+
+  .All_Package {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 10%;
+  }
+
+  #Gold_Package {
+    height: 30%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    z-index: 50;
+    padding-top: 9%;
+    box-shadow: 0px 0px 2px rgb(201, 201, 201);
+    position: relative;
+  }
+
+  .Portfolio {
+    height: 2000px;
+    width: 100%;
+    padding: 6% 4% 6% 4%;
+  }
+  .Portfolio_header {
+    width: 100%;
+    padding-right: 0%;
+    height: 7%;
+    margin-bottom: 5%;
+    float: left;
+  }
+
+  .img1 {
+    width: 100%;
+    height: 18%;
+    box-sizing: border-box;
+  }
+
+  .img1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Portfolio_images img {
+    width: 100%;
+  }
+
+  .img5 img {
+    width: 100%;
+  }
+  .Partners {
+    height: 250px;
+  }
+  .Partners img {
+    height: 30%;
+    margin-right: 10%;
+  }
+  #image3 {
+    display: none;
+  }
+  #image4 {
+    display: none;
+  }
+  #image5 {
+    display: none;
+  }
+
+  .Service {
+    height: 1550px;
+    width: 100%;
+    padding: 6% 4% 10% 4%;
+  }
+
+  .Service_header {
+    width: 100%;
+    padding-right: 0%;
+    height: 8.5%;
+  }
+  .Service_boxex {
+    width: 100%;
+    height: 14.5%;
+    padding: 10% 3% 4% 3%;
+    float: left;
+    box-shadow: 0px 0px 1px rgb(226, 226, 226);
+    margin-bottom: 1%;
+  }
+
+  .Contact {
+    height: 800px;
+    width: 100%;
+    padding: 6% 4% 6% 4%;
+  }
+
+  .Contact_box {
+    height: 23%;
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 18%;
+  }
+
+  .Contact_box h3 {
+    color: rgb(175, 175, 176);
+    font-weight: lighter;
+    margin-bottom: 6%;
+    font-size: 14px;
+    margin-top: 1%;
+  }
+
+  .Contact_box p {
+    margin-bottom: 2%;
+    margin-top: 0%;
+    color: rgb(124, 124, 124);
+  }
+
+  .Contact_box span {
+    margin-bottom: 2%;
+    color: rgb(175, 175, 176);
+  }
+  .location {
+    height: 300px;
+  }
+
+  .Main_content {
+    width: 100%;
+    height: 500px;
+    padding: 4% 10% 4% 10%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(234, 232, 232);
+  }
+
+  .Main_content ul {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    height: 30%;
+    margin-bottom: 6%;
+  }
+  .Main_content li {
+    height: 25%;
+    transition: 0.4s;
+    &:hover {
+      color: rgb(193, 190, 190);
+    }
+  }
+
+  .footer {
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    align-items: left;
+    font-size: 15px;
+    color: rgb(153, 156, 170);
+  }
+
+  .footer img {
+    height: 11%;
+    margin-right: 0%;
+    margin-left: 5%;
+  }
+
+  .anchor_footer {
+    float: right;
+    width: 45%;
+    text-align: center;
+    margin-left: 25%;
+  }
+}
