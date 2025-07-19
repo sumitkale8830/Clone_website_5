@@ -4,10 +4,6 @@
   color: rgb(81, 87, 105);
   font-family: Hind, sans-serif;
 }
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 #check {
   display: none;
 }
@@ -690,9 +686,6 @@ label {
 }
 
 @media (max-width: 550px) {
-  * {
-    overflow-x: hidden;
-  }
   .navbar {
     height: 10%;
     width: 100%;
@@ -830,7 +823,7 @@ label {
   .Projects {
     height: 1800px;
     width: 100%;
-    padding: 6% 10% 6% 4%;
+    padding: 6% 4% 6% 4%;
     box-sizing: border-box;
   }
 
